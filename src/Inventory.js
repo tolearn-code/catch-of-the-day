@@ -3,7 +3,11 @@ import { render } from 'react-dom';
 
 class Inventory extends Component {
   render() {
-    return <p>Test 2</p>;
+    return (
+      <Fragment>
+        <div className="inventory">Inventory!!!</div>;
+      </Fragment>
+    );
   }
 }
 

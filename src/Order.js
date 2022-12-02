@@ -3,10 +3,11 @@ import { render } from 'react-dom';
 
 class Order extends Component {
   render() {
-    return;
-    <Fragment>
-      <p>Test</p>
-    </Fragment>;
+    return (
+      <Fragment>
+        <div className="order">Order!!! </div>
+      </Fragment>
+    );
   }
 }
 

@@ -9,11 +9,13 @@ class Apps extends Component {
   render() {
     return (
       <Fragment>
-        <div>
-          <Header />
+        <div className="catch-of-the-day">
+          <div className="menu">
+            <Header tagline="Fresh Seafood Daily"/>
+          </div>
+          <Inventory />
+          <Order />
         </div>
-        <Order />
-        <Inventory />
       </Fragment>
     );
   }
